@@ -117,6 +117,7 @@ body {
   box-shadow: 0px 2px 10px rgba(0,0,0,0.1);
   border-top: 1px solid rgba(0,0,0,0.05);
   width: 100%;
+  z-index: 200;
   position: absolute;
   @extend .group;
 
@@ -199,24 +200,27 @@ body {
 
 .project-item {
   background: #fff;
-  padding: 20px 40px;
-  box-shadow: 0px 2px 10px rgba(0,0,0,0.1), 0px 2px 0px $red-color;
-  border: 1px solid rgba(0,0,0,0.05);
+  padding: 20px 30px;
+  box-shadow: 0px 2px 10px rgba(0,0,0,0.1);
+  border: 1px solid rgba(0,0,0,0.1);
   width: 24%;
   float:left;
   margin-right: 1%;
   margin-bottom: 10px;
   border-radius: 5px;
+  min-height: 220px;
   @extend .transition;
 
   &-icon {
     float: right;
+    width: 30px;
   }
 
   &-title {
     padding-top: 5em;
     margin: 0px;
     margin-bottom: 0.5em;
+    color: #000;
   }
 
   &-description {
@@ -226,7 +230,8 @@ body {
   }
 
   &:hover {
-    box-shadow: 0px 10px 10px rgba(0,0,0,0.2);
+    box-shadow: 0px 10px 10px rgba(0,0,0,0.2), 0px 2px 0px $red-color;;
+    cursor: pointer;
   }
 }
 

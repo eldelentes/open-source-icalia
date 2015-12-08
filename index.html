@@ -84,81 +84,178 @@
       <div class="container">
         <img src="img/logo-mini.svg" alt="" class="logo-mini">
         <nav class="categories-nav">
-          <a href="#">Web</a>
-          <a href="#">IOS</a>
-          <a href="#">Rails</a>
-          <a href="#">Javascript</a>
+          <a href="javascript:void(0);" id="all">All</a>
+          <a href="javascript:void(0);" data-cat="web">Web</a>
+          <a href="javascript:void(0);" data-cat="rails">Rails</a>
+          <a href="javascript:void(0);" data-cat="api">APIs</a>
+          <a href="javascript:void(0);" data-cat="gems">Gems</a>
+          <a href="javascript:void(0);" data-cat="ios">IOS</a>
+          <a href="javascript:void(0);" data-cat="setup">Setups</a>
         </nav>
       </div>
     </header>
     <section class="projects">
       <div class="container">
-        <div class="category">
+        
+        <div class="category" data-cat="web">
           <h3 class="category-title">Web</h3>
-          <article class="project-item">
-            <img src="#" alt="" class="project-item-icon">
-            <h3 class="project-item-title">Furatto</h3>
-            <p class="project-item-description">Our web development framework</p>
-          </article>
-          <article class="project-item">
-            <img src="#" alt="" class="project-item-icon">
-            <h3 class="project-item-title">Furatto</h3>
-            <p class="project-item-description">Our web development framework</p>
-          </article>
-          <article class="project-item">
-            <img src="#" alt="" class="project-item-icon">
-            <h3 class="project-item-title">Furatto</h3>
-            <p class="project-item-description">Our web development framework</p>
-          </article>
-          <article class="project-item">
-            <img src="#" alt="" class="project-item-icon">
-            <h3 class="project-item-title">Furatto</h3>
-            <p class="project-item-description">Our web development framework</p>
-          </article>
-          <article class="project-item">
-            <img src="#" alt="" class="project-item-icon">
-            <h3 class="project-item-title">Furatto</h3>
-            <p class="project-item-description">Our web development framework</p>
-          </article>
-          <article class="project-item">
-            <img src="#" alt="" class="project-item-icon">
-            <h3 class="project-item-title">Furatto</h3>
-            <p class="project-item-description">Our web development framework</p>
-          </article>
+          
+          <a href="https://github.com/IcaliaLabs/furatto" target="_blank">
+            <article class="project-item">
+              <img src="img/furatto.png" class="project-item-icon">
+              <h3 class="project-item-title">Furatto</h3>
+              <p class="project-item-description">It's a flat, fast and powerful front-end framework for rapid web development.</p>
+            </article>
+          </a>
+
+          <a href="https://github.com/IcaliaLabs/furatto-rails" target="_blank">
+            <article class="project-item">
+              <img src="img/furatto-rails.png" class="project-item-icon">
+              <h3 class="project-item-title">Furatto Rails</h3>
+              <p class="project-item-description">Furatto CSS Framework for Rails Asset Pipeline</p>
+            </article>
+          </a>
+
         </div>
-        <div class="category">
-          <h3 class="category-title">Web</h3>
-          <article class="project-item">
-            <img src="#" alt="" class="project-item-icon">
-            <h3 class="project-item-title">Furatto</h3>
-            <p class="project-item-description">Our web development framework</p>
-          </article>
-          <article class="project-item">
-            <img src="#" alt="" class="project-item-icon">
-            <h3 class="project-item-title">Furatto</h3>
-            <p class="project-item-description">Our web development framework</p>
-          </article>
-          <article class="project-item">
-            <img src="#" alt="" class="project-item-icon">
-            <h3 class="project-item-title">Furatto</h3>
-            <p class="project-item-description">Our web development framework</p>
-          </article>
-          <article class="project-item">
-            <img src="#" alt="" class="project-item-icon">
-            <h3 class="project-item-title">Furatto</h3>
-            <p class="project-item-description">Our web development framework</p>
-          </article>
-          <article class="project-item">
-            <img src="#" alt="" class="project-item-icon">
-            <h3 class="project-item-title">Furatto</h3>
-            <p class="project-item-description">Our web development framework</p>
-          </article>
-          <article class="project-item">
-            <img src="#" alt="" class="project-item-icon">
-            <h3 class="project-item-title">Furatto</h3>
-            <p class="project-item-description">Our web development framework</p>
-          </article>
+
+        <div class="category" data-cat="rails">
+          <h3 class="category-title">Rails Libraries</h3>
+          
+          <a href="https://github.com/IcaliaLabs/acts_as_user" target="_blank">
+            <article class="project-item">
+              <img src="img/act-as-user.png" class="project-item-icon">
+              <h3 class="project-item-title">Acts as user</h3>
+              <p class="project-item-description">A gem which handles multiple types of users on a rails app</p>
+            </article>
+          </a>
+
+          <a href="https://github.com/IcaliaLabs/sabisu-rails" target="_blank">
+            <article class="project-item">
+              <img src="img/sabisu.png" class="project-item-icon">
+              <h3 class="project-item-title">Sabisu Rails</h3>
+              <p class="project-item-description">Simple and powerful engine for exploring your Rails api application</p>
+            </article>
+          </a>
+
         </div>
+
+
+        <div class="category" data-cat="api">
+          <h3 class="category-title">APIs</h3>
+          
+          <a href="https://github.com/IcaliaLabs/sepomex" target="_blank">
+            <article class="project-item">
+              <img src="img/sepomex.png" class="project-item-icon">
+              <h3 class="project-item-title">Sepomex</h3>
+              <p class="project-item-description">A REST API for the SEPOMEX database</p>
+            </article>
+          </a>
+
+          <a href="https://github.com/IcaliaLabs/sepomex-js" target="_blank">
+            <article class="project-item">
+              <img src="img/sepomex-js.png" class="project-item-icon">
+              <h3 class="project-item-title">SepomexJS</h3>
+              <p class="project-item-description">A JS wrapper for the Sepomex API </p>
+            </article>
+          </a>
+
+          <a href="https://github.com/IcaliaLabs/toll" target="_blank">
+            <article class="project-item">
+              <img src="img/toll.png" class="project-item-icon">
+              <h3 class="project-item-title">Toll</h3>
+              <p class="project-item-description">Super simple yet powerful authentication for Rails APIs</p>
+            </article>
+          </a>
+
+          <a href="https://github.com/IcaliaLabs/pager-api" target="_blank">
+            <article class="project-item">
+              <img src="img/paper.png" class="project-item-icon">
+              <h3 class="project-item-title">Pager-API</h3>
+              <p class="project-item-description">Easy API pagination for Rails</p>
+            </article>
+          </a>
+
+          <a href="https://github.com/IcaliaLabs/cic-js" target="_blank">
+            <article class="project-item">
+              <img src="img/circ-js.png" class="project-item-icon">
+              <h3 class="project-item-title">CIC JS</h3>
+              <p class="project-item-description">A wrapper for the CIC API in JS</p>
+            </article>
+          </a>
+
+        </div>
+
+        <div class="category" data-cat="gems">
+          <h3 class="category-title">GEMS</h3>
+          
+          <a href="https://github.com/IcaliaLabs/cic-rb" target="_blank">
+            <article class="project-item">
+              <img src="img/circ-rb.png" class="project-item-icon">
+              <h3 class="project-item-title">CIC RB</h3>
+              <p class="project-item-description">A library built in ruby to communicate with the CIC Api</p>
+            </article>
+          </a>
+
+          <a href="https://github.com/IcaliaLabs/sepomex-rb" target="_blank">
+            <article class="project-item">
+              <img src="img/sepomex-rails.png" class="project-item-icon">
+              <h3 class="project-item-title">Sepomex RB</h3>
+              <p class="project-item-description">A Ruby wrapper for the Sepomex API</p>
+            </article>
+          </a>
+
+        </div>
+
+        <div class="category" data-cat="ios">
+          <h3 class="category-title">IOS</h3>
+          
+          <a href="https://github.com/IcaliaLabs/ILParabolicImageView" target="_blank">
+            <article class="project-item">
+              <img src="img/uimages.png" class="project-item-icon">
+              <h3 class="project-item-title">ILParabolicImageView</h3>
+              <p class="project-item-description">A super simple library to add a motion effect to an ImageView as the iPhone moves</p>
+            </article>
+          </a>
+
+          <a href="https://github.com/IcaliaLabs/UIImage-ImageCompress" target="_blank">
+            <article class="project-item">
+              <img src="img/compress.png" class="project-item-icon">
+              <h3 class="project-item-title">UIImage-ImageCompress</h3>
+              <p class="project-item-description">An iOS library to compress images and optimize uploads</p>
+            </article>
+          </a>
+
+        </div>
+
+        <div class="category" data-cat="setup">
+          <h3 class="category-title">Setup</h3>
+          
+          <a href="https://github.com/IcaliaLabs/platter" target="_blank">
+            <article class="project-item">
+              <img src="img/platter.png" class="project-item-icon">
+              <h3 class="project-item-title">Platter</h3>
+              <p class="project-item-description">A solution to create custom Rails apps used at @icalialabs</p>
+            </article>
+          </a>
+
+          <a href="https://github.com/IcaliaLabs/kaishi" target="_blank">
+            <article class="project-item">
+              <img src="img/kaishi.png" class="project-item-icon">
+              <h3 class="project-item-title">Kaishi</h3>
+              <p class="project-item-description">A shell script to convert any Mac OS X or Linux computer into a real development machine</p>
+            </article>
+          </a>
+
+           <a href="https://github.com/IcaliaLabs/sekkei" target="_blank">
+            <article class="project-item">
+              <img src="img/sekkei.png" class="project-item-icon">
+              <h3 class="project-item-title">Sekkei</h3>
+              <p class="project-item-description">A generator tool for designers to create new project folder structure</p>
+            </article>
+          </a>
+
+        </div>
+
       </div>
     </section>
     <script src="http://cdn.jsdelivr.net/vivus/latest/vivus.min.js"></script>
