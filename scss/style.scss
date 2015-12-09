@@ -78,6 +78,13 @@ body {
 
   h2 {
     color: $red-color;
+    font-weight: 300;
+  }
+
+  p {
+    font-weight: 300;
+    font-size: 1.4em;
+    color: rgba(0,0,0,0.5);
   }
 
   .secondary-header {
@@ -181,6 +188,7 @@ body {
 
 .projects {
   padding: 100px 0px;
+  min-height: 900px;
 }
 
 

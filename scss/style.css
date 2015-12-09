@@ -57,7 +57,12 @@ body {
   height: 85vh;
   overflow: hidden; }
   .intro-hero h2 {
-    color: #d7002b; }
+    color: #d7002b;
+    font-weight: 300; }
+  .intro-hero p {
+    font-weight: 300;
+    font-size: 1.4em;
+    color: rgba(0, 0, 0, 0.5); }
   .intro-hero .secondary-header {
     padding: 50px 0px;
     position: absolute;
@@ -127,7 +132,8 @@ body {
     margin-right: 20px; }
 
 .projects {
-  padding: 100px 0px; }
+  padding: 100px 0px;
+  min-height: 900px; }
 
 .category {
   padding: 20px 0px;
